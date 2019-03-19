@@ -1,0 +1,18 @@
+extends layout
+
+block append head
+  script(src="/socket.io/socket.io.js")
+  script(src="/script.js")
+
+block content
+  p Welcome, #{user.displayName}.
+
+  form(action="/logout" method="post")
+    input(type='hidden', name='_csrf', value=csrf)
+    button.btn.btn-primary(type="submit") Logout
+
+  h1 Chat
+
+  .alert.alert-info
+    | State:
+    span(data-status)

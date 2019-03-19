@@ -1,0 +1,49 @@
+1. const stream = require('stream');
+2. const fs = require('fs');
+3. const os = require('os');
+4. 
+5. class LineNumberStream extends stream.Transform {
+6.   constructor(options) {
+7.     super(options);
+8. 
+9.     this.isFileBegins = true;
+10.     this.line = 1;
+11.     this.eolRegex = new RegExp(os.EOL, 'g');
+12.   }
+13. 
+14.   _transform(chunk, encoding, callback) {
+15.     let str = chunk.toString('utf-8');
+16. 
+17.     if (this.isFileBegins) {
+18.       str = `${this.line++}. ${str}`;
+19.       this.isFileBegins = false;
+20.     }
+21. 
+22.     let pieces = str.split(os.EOL);
+23. 
+24.     if (pieces.length === 0) {
+25.       return callback(null, Buffer.from(str));
+26.     }
+27. 
+28.     let newStr = pieces.reduce((_newStr, piece, i) => {
+29.       if (i === 0)
+30.         _newStr = piece;
+31.       else
+32.         _newStr = `${_newStr}${os.EOL}${this.line++}. ${piece}`;
+33. 
+34.       return _newStr;
+35.     }, '');
+36. 
+37.     callback(null, Buffer.from(newStr));
+38.   }
+39. }
+40. 
+41. const s = fs.createReadStream(__filename, {
+42.   highWaterMark: 10
+43. });
+44. const o = fs.createWriteStream(`${__filename}.out`);
+45. 
+46. s
+47.   .pipe(new LineNumberStream())
+48.   .pipe(o);
+49. 

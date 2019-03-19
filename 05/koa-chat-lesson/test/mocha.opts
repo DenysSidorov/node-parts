@@ -1,0 +1,4 @@
+--reporter nyan
+--colors
+--timeout 1000
+--recursive

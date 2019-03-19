@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    link(href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css', rel='stylesheet')
+  body.container
+    p.lead Добро пожаловать в чат!
+    form#publish.form-inline
+      input(type='text', name='message')
+      input.btn.btn-primary(type='submit', value='Отправить')
+    ul#messages
+
+    script(src='/main.js')

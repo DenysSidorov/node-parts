@@ -1,0 +1,9 @@
+unit
+functional
+integration | e2e
+
+e2e, load testing, generative, mutation
+
+mocha, tape, jasmine, jest, ava
+
+chai, expect

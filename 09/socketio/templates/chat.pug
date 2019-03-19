@@ -1,0 +1,28 @@
+extends layout
+
+block append styles
+  link(rel="stylesheet" href="/chat.css")
+
+block append scripts
+  script(src="/socket.io/socket.io.js")
+  script(src="/script.js")
+
+block content
+  form.logout.form-inline.align-right(action="/logout" method="post")
+    span.greeting Welcome, #{user.displayName}.
+    input(type='hidden', name='_csrf', value=csrf)
+    button.btn.btn-primary(type="submit") Logout
+
+  h1 Chat
+
+  .alert.alert-info
+    | State:
+    span(data-status)
+
+  .chat
+    .chat-history
+      ul.messages
+
+    form.chat-message.clearfix
+      textarea#message(placeholder='Type your message', rows='3')
+      button Send
