@@ -4,11 +4,11 @@
 // tasksqueue = [];
 
 const intervalId = setInterval(() => {
-  console.log('setInterval'); // 2 iteration 1 call | // 5 iteration 1 call
-}, 10);
+  console.log('setInterval');
+}, 0);
 
 setTimeout(() => {
-  console.log('setTimeout 1'); // 3 iteration 1 call
+  console.log('setTimeout 1');
 
   const promise = new Promise((resolve, reject) => {
     resolve('then 4');
@@ -16,14 +16,14 @@ setTimeout(() => {
 
   promise
     .then((value) => {
-      console.log(value); // 3 iteration 2 call
+      console.log(value);
 
       setTimeout(() => {
-        console.log('setTimeout 2'); // 6 iteration 1 call
+        console.log('setTimeout 2');
         clearInterval(intervalId);
-      }, 10);
+      }, 0);
     });
-}, 10);
+}, 0);
 
 const promise = new Promise((resolve, reject) => {
   resolve('then 1');
@@ -31,19 +31,29 @@ const promise = new Promise((resolve, reject) => {
 
 promise
   .then((value) => {
-    console.log(value); // 1 iteration 1 call
+    console.log(value);
     return 'then 2';
   })
   .then((value) => {
-    console.log(value); // 1 iteration 2 call
+    console.log(value);
 
     return new Promise((resolve, reject) => {
-      setTimeout(resolve, 10, 'then 3');
+      setTimeout(resolve, 0, 'then 3');
     });
   })
   .then((value) => {
-    console.log(value); // 4 iteration 1 call
+    console.log(value);
   });
+
+// then 1
+// then 2
+// setInterval
+// setTimeout 1
+// then 4
+// 'then 3'
+// setInterval
+// 'setTimeout 2'
+
 
 /*
 then 1

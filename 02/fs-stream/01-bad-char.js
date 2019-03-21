@@ -1,7 +1,8 @@
 const fs = require('fs');
 
 const fileStream = fs.createReadStream('bad-char.txt', {
-  highWaterMark: 9 // читать по 9 байт для наглядности
+  highWaterMark: 9, // читать по 9 байт для наглядности
+  // encoding: 'utf8'
 });
 
 let content = '';

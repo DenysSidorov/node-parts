@@ -1,4 +1,6 @@
 const fs = require('fs');
+var argv = require('minimist')(process.argv.slice(2));
+
 
 // tasks queue        [request1, request2, request3]
 // 0.365ms, 0.730ms, 1095ms
@@ -35,3 +37,6 @@ console.timeEnd('loop');
 // console.log('end'); // 3
 
 // V8 + libuv
+
+
+console.log(argv['AUTH']);

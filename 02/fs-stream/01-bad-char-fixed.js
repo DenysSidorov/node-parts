@@ -26,7 +26,7 @@ const fileStream = fs.createReadStream('bad-char.txt', {
 let dataPieces = [];
 
 fileStream.on('data', buffer => {
-  console.log(buffer)
+  // console.log(buffer)
   dataPieces.push(buffer);
 });
 
