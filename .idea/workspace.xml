@@ -2,7 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5f5368f-7e57-455f-8a94-ef6b9646b05b" name="Default" comment="" />
+    <list id="53271ea7-a1aa-4adf-a1fc-3eb7cba439f1" name="Revert &quot;get for file server&quot; This reverts commit 76e6a98" comment="Revert &quot;get for file server&quot;&#10;&#10;This reverts commit 76e6a98">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09/koa-chat/.gitignore" afterPath="$PROJECT_DIR$/09/koa-chat/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09/koa-chat/.travis.yml" afterPath="$PROJECT_DIR$/09/koa-chat/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09/koa-chat/Procfile" afterPath="$PROJECT_DIR$/09/koa-chat/Procfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09/koa-chat/app.js" afterPath="$PROJECT_DIR$/09/koa-chat/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09/koa-chat/config/default.js" afterPath="$PROJECT_DIR$/09/koa-chat/config/default.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09/koa-chat/handlers/01-favicon.js" afterPath="$PROJECT_DIR$/09/koa-chat/handlers/01-favicon.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09/koa-chat/handlers/02-static.js" afterPath="$PROJECT_DIR$/09/koa-chat/handlers/02-static.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09/koa-chat/handlers/03-logger.js" afterPath="$PROJECT_DIR$/09/koa-chat/handlers/03-logger.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09/koa-chat/handlers/04-templates.js" afterPath="$PROJECT_DIR$/09/koa-chat/handlers/04-templates.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09/koa-chat/handlers/05-errors.js" afterPath="$PROJECT_DIR$/09/koa-chat/handlers/05-errors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09/koa-chat/handlers/06-session.js" afterPath="$PROJECT_DIR$/09/koa-chat/handlers/06-session.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09/koa-chat/handlers/07-bodyParser.js" afterPath="$PROJECT_DIR$/09/koa-chat/handlers/07-bodyParser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09/koa-chat/index.js" afterPath="$PROJECT_DIR$/09/koa-chat/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09/koa-chat/package-lock.json" afterPath="$PROJECT_DIR$/09/koa-chat/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09/koa-chat/package.json" afterPath="$PROJECT_DIR$/09/koa-chat/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09/koa-chat/process.json" afterPath="$PROJECT_DIR$/09/koa-chat/process.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09/koa-chat/public/index.html" afterPath="$PROJECT_DIR$/09/koa-chat/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09/koa-chat/readme.md" afterPath="$PROJECT_DIR$/09/koa-chat/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09/koa-chat/test/chat.js" afterPath="$PROJECT_DIR$/09/koa-chat/test/chat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09/koa-chat/test/mocha.opts" afterPath="$PROJECT_DIR$/09/koa-chat/test/mocha.opts" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <file path="$PROJECT_DIR$/09/koa-chat/handlers/01-favicon.js" ignored="false" />
+    <file path="$PROJECT_DIR$/09/koa-chat/handlers/07-bodyParser.js" ignored="false" />
+    <file path="$PROJECT_DIR$/09/koa-chat/public/index.html" ignored="false" />
+    <file path="$PROJECT_DIR$/09/koa-chat/config/default.js" ignored="false" />
+    <file path="$PROJECT_DIR$/09/koa-chat/test/mocha.opts" ignored="false" />
+    <file path="$PROJECT_DIR$/09/koa-chat/test/chat.js" ignored="false" />
+    <file path="$PROJECT_DIR$/09/koa-chat/process.json" ignored="false" />
+    <file path="$PROJECT_DIR$/09/koa-chat/package.json" ignored="false" />
+    <file path="$PROJECT_DIR$/09/koa-chat/.travis.yml" ignored="false" />
+    <file path="$PROJECT_DIR$/09/koa-chat/app.js" ignored="false" />
+    <file path="$PROJECT_DIR$/09/koa-chat/index.js" ignored="false" />
+    <file path="$PROJECT_DIR$/09/koa-chat/readme.md" ignored="false" />
+    <file path="$PROJECT_DIR$/09/koa-chat/package-lock.json" ignored="false" />
+    <file path="$PROJECT_DIR$/09/koa-chat/Procfile" ignored="false" />
+    <file path="$PROJECT_DIR$/09/koa-chat/.gitignore" ignored="false" />
+    <file path="$PROJECT_DIR$/09/koa-chat/handlers/04-templates.js" ignored="false" />
+    <file path="$PROJECT_DIR$/09/koa-chat/handlers/03-logger.js" ignored="false" />
+    <file path="$PROJECT_DIR$/09/koa-chat/handlers/05-errors.js" ignored="false" />
+    <file path="$PROJECT_DIR$/09/koa-chat/handlers/06-session.js" ignored="false" />
+    <file path="$PROJECT_DIR$/09/koa-chat/handlers/02-static.js" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,38 +56,18 @@
       <file leaf-file-name="task.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02/get-post-server-task/task.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+            <state relative-caret-position="202">
+              <caret line="13" column="45" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/02/get-post-server-task/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-450">
-              <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02/get-post-server-task/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="43" column="33" lean-forward="false" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+            <state relative-caret-position="65">
+              <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -54,15 +76,35 @@
       <file leaf-file-name="sendFile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02/get-post-server-task/sendFile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            <state relative-caret-position="144">
+              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="createFile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02/get-post-server-task/createFile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="03-copy-error.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02/fs-stream/03-copy-error.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="03-copy-error.js.out" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02/fs-stream/03-copy-error.js.out">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -71,11 +113,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test">
+      <file leaf-file-name="03-copy-error-fixed.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02/fs-stream/03-copy-error-fixed.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-86">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="removeFile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03/get-post-server/removeFile.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="receiveFile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03/get-post-server/receiveFile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="43">
+              <caret line="4" column="66" lean-forward="true" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="removeFile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02/get-post-server-task/removeFile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -105,9 +177,10 @@
         <option value="$PROJECT_DIR$/01/timers/timers.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/02/get-post-server-task/index.js" />
         <option value="$PROJECT_DIR$/02/get-post-server-task/sendFile.js" />
         <option value="$PROJECT_DIR$/test" />
+        <option value="$PROJECT_DIR$/02/get-post-server-task/index.js" />
+        <option value="$PROJECT_DIR$/02/get-post-server-task/removeFile.js" />
       </list>
     </option>
   </component>
@@ -186,6 +259,47 @@
               <item name="node-parts" type="b2602c69:ProjectViewProjectNode" />
               <item name="node-parts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="node-parts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-parts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="02" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="node-parts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-parts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="02" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="get-post-server-task" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="node-parts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-parts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="02" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="get-post-server-task" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="files" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="node-parts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-parts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="02" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="get-post-server-task" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="node-parts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-parts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="03" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="node-parts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-parts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="03" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="get-post-server" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="node-parts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-parts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="09" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -261,7 +375,7 @@
       <workItem from="1552989476190" duration="1273000" />
       <workItem from="1553016961940" duration="1141000" />
       <workItem from="1553071170314" duration="5409000" />
-      <workItem from="1553174896242" duration="3603000" />
+      <workItem from="1553174896242" duration="7059000" />
     </task>
     <task id="LOCAL-00001" summary="get for file server">
       <created>1553202262638</created>
@@ -274,10 +388,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11426000" />
+    <option name="totallyTimeSpent" value="14882000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2629683" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -285,10 +400,10 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292232" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292232" sideWeight="0.49711815" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292232" sideWeight="0.49711815" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Quokka" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292232" sideWeight="0.49423632" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292232" sideWeight="0.49423632" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -344,38 +459,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/02/get-post-server-task/task.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/get-post-server-task/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/LineNumberStream.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01/timers/timers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -603,20 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02/fs-stream/03-copy-error.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/fs-stream/03-copy-error-fixed.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02/get-post-server-task/files/1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -648,50 +717,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02/get-post-server-task/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="43" column="33" lean-forward="false" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/get-post-server-task/task.txt">
+    <entry file="file://$PROJECT_DIR$/test">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/get-post-server-task/sendFile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/get-post-server-task/index.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -700,6 +737,99 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-450">
           <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02/get-post-server-task/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="43" column="33" lean-forward="false" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02/get-post-server-task/files/scr.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02/fs-stream/03-copy-error.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02/fs-stream/03-copy-error.js.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03/get-post-server/removeFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02/fs-stream/03-copy-error-fixed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-86">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02/get-post-server-task/sendFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02/get-post-server-task/task.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="13" column="45" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03/get-post-server/receiveFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="4" column="66" lean-forward="true" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02/get-post-server-task/createFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02/get-post-server-task/removeFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02/get-post-server-task/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
           <folding />
         </state>
       </provider>
