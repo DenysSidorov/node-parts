@@ -1,7 +1,7 @@
 // Typical middleware examples
 
 const Koa = require('koa');
-const fs = require('fs').promises;
+const fs = require('fs');
 const app = new Koa();
 
 app.use(async (ctx, next) => {
@@ -21,7 +21,7 @@ app.use(async (ctx, next) => {
   console.log('--> add useful method to ctx');
 
   ctx.renderFile = async function (file) {
-    return await fs.readFile(file, 'utf-8');
+    return await fs.readFileSync(file, 'utf-8');
   };
 
   // ctx.renderFile = fs.promises.readFile;

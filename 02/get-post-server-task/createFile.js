@@ -9,16 +9,20 @@ module.exports = function (req, res, pathname) {
   var writeStream = fs.createWriteStream(dirPath, {flags: 'wx'});
   req.pipe(writeStream);
 
-  writeStream.on('error', function (error) {
+  writeStream
+
+    .on('error', function (error) {
       if(error.code === 'EEXIST'){
         res.statusCode = 409;
         res.end('File already exists');
       } else {
         res.statusCode = 500;
         res.end('Server error');
+        // todo cleanUp() for removing not full users's file
       }
     })
 
+    // or close
     .on('finish', function () {
       res.statusCode = 200;
       res.end('File added');
